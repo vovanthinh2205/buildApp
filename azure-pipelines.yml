@@ -24,7 +24,7 @@ steps:
 - task: SonarCloudPrepare@2
   inputs:
       SonarCloud: 'SonarCloud'
-      organization: 'dev-0rganization'
+      organization: 'thinhvv'
       scannerMode: 'MSBuild'
       projectKey: 'testsonarcloud'
       projectName: 'testsonarcloud'
